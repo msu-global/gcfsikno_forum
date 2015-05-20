@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the GCFSI Knowledge Platform Forum feature.
+ * Code for the GCFSI Kno Blog feature.
  */
 
 include_once 'gcfsikno_forum.features.inc';
