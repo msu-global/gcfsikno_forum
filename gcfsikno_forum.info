@@ -23,7 +23,6 @@ features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[field_base][] = taxonomy_forums
 features[field_instance][] = node-forum-body
-features[field_instance][] = node-forum-field_file
 features[field_instance][] = node-forum-taxonomy_forums
 features[menu_links][] = main-menu_forum-home:forum
 features[menu_links][] = main-menu_forum:forum

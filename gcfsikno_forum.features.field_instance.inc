@@ -55,67 +55,6 @@ function gcfsikno_forum_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-forum-field_file'
-  $field_instances['node-forum-field_file'] = array(
-    'bundle' => 'forum',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_table',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_file',
-    'label' => 'File',
-    'required' => 0,
-    'settings' => array(
-      'description_field' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'txt pdf doc docx xls xlsx jpeg gif jpg png mp4 mp3 ppt pptx',
-      'filefield_paths' => array(
-        'active_updating' => 0,
-        'file_name' => array(
-          'options' => array(
-            'pathauto' => 0,
-            'transliterate' => 0,
-          ),
-          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
-        ),
-        'file_path' => array(
-          'options' => array(
-            'pathauto' => 0,
-            'transliterate' => 0,
-          ),
-          'value' => '',
-        ),
-        'retroactive_update' => 0,
-      ),
-      'filefield_paths_enabled' => 1,
-      'max_filesize' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'file',
-      'settings' => array(
-        'progress_indicator' => 'throbber',
-      ),
-      'type' => 'file_generic',
-      'weight' => 4,
-    ),
-  );
-
   // Exported field_instance: 'node-forum-taxonomy_forums'
   $field_instances['node-forum-taxonomy_forums'] = array(
     'bundle' => 'forum',
@@ -156,7 +95,6 @@ function gcfsikno_forum_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Description');
-  t('File');
   t('Forums');
 
   return $field_instances;

@@ -16,7 +16,10 @@ function gcfsikno_forum_default_page_manager_pages() {
   $page->admin_title = 'Advanced Forum New Topics';
   $page->admin_description = 'A page that shows a listing of new forum topics.';
   $page->path = 'forum/new';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array(
     'type' => 'tab',
     'title' => 'New topics',
@@ -123,7 +126,10 @@ function gcfsikno_forum_default_page_manager_pages() {
   $page->admin_title = 'Advanced Forum Unanswered Topics';
   $page->admin_description = 'A page showing a Views listing of unanswered forum topics.';
   $page->path = 'forum/unanswered';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array(
     'type' => 'tab',
     'title' => 'Unanswered forum topics',
@@ -232,7 +238,10 @@ function gcfsikno_forum_default_page_manager_pages() {
   $page->admin_title = 'Advanced Forum Active Topics';
   $page->admin_description = 'Shows the topics which have been active.';
   $page->path = 'forum/active';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array(
     'type' => 'tab',
     'title' => 'Active forum topics',
